@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+
+
+    <item android:title="UTHM">
+        <menu>
+            <item
+                android:id="@+id/uthmm"
+                android:icon="@drawable/ic_man"
+                android:title="Male Drivers" />
+            <item
+                android:id="@+id/uthmf"
+                android:icon="@drawable/ic_woman"
+                android:title="Female Drivers" />
+        </menu>
+    </item>
+
+    <item android:title="Pagoh">
+        <menu>
+            <item
+                android:id="@+id/pagohm"
+                android:icon="@drawable/ic_man"
+                android:title="Male Drivers" />
+            <item
+                android:id="@+id/pagohf"
+                android:icon="@drawable/ic_woman"
+                android:title="Female Drivers" />
+        </menu>
+    </item>
+</menu>

@@ -10,11 +10,11 @@
         <menu>
             <item
                 android:id="@+id/uthmm"
-                android:icon="@drawable/ic_man"
+                android:icon="@drawable/ic_male"
                 android:title="Male Drivers" />
             <item
                 android:id="@+id/uthmf"
-                android:icon="@drawable/ic_woman"
+                android:icon="@drawable/ic_female"
                 android:title="Female Drivers" />
         </menu>
     </item>
@@ -23,12 +23,18 @@
         <menu>
             <item
                 android:id="@+id/pagohm"
-                android:icon="@drawable/ic_man"
+                android:icon="@drawable/ic_male"
                 android:title="Male Drivers" />
             <item
                 android:id="@+id/pagohf"
-                android:icon="@drawable/ic_woman"
+                android:icon="@drawable/ic_female"
                 android:title="Female Drivers" />
         </menu>
     </item>
+
+    <item
+        android:id="@+id/about"
+        android:title="About"
+        android:icon="@drawable/ic_contact"/>
+
 </menu>

@@ -4,7 +4,10 @@
         android:id="@+id/home"
         android:title="Home"
         android:icon="@drawable/ic_home"/>
-
+    <item
+        android:id="@+id/about"
+        android:title="About"
+        android:icon="@drawable/ic_contact"/>
 
     <item android:title="UTHM">
         <menu>
@@ -32,9 +35,6 @@
         </menu>
     </item>
 
-    <item
-        android:id="@+id/about"
-        android:title="About"
-        android:icon="@drawable/ic_contact"/>
+
 
 </menu>
